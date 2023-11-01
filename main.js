@@ -1,4 +1,4 @@
-import {josephus} from "./functions/josephusPermutation.js";
+import {simple_assembler} from "./functions/simpleAssemblerInterpreter.js";
 
-console.log(josephus([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 1));
-console.log(josephus([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21], 20));
+// console.log(simple_assembler(['mov a 5','inc a','dec a','dec a','jnz a -1', 'inc a']));
+console.log(simple_assembler(['mov a -10','mov b a','inc a','dec b','jnz a -2']));
