@@ -1,3 +1,3 @@
-import {patternUptoRows} from "./functions/patternUptoRows.js";
+import {findCombos} from "./functions/findCombos.js";
 
-console.log(patternUptoRows(17));
+console.log(findCombos([312,[333],[3,3,3,[],[[3], 44, [2, []]], 2, []]]));
