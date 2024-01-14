@@ -1,3 +1,7 @@
-import {findCombos} from "./functions/findCombos.js";
+import {
+  displayAllPrimeNumbers,
+  forToWhile,
+  repeatLoopWhilePromptTrue
+} from "./functions/loops.js";
 
-console.log(findCombos([312,[333],[3,3,3,[],[[3], 44, [2, []]], 2, []]]));
+displayAllPrimeNumbers(100);
