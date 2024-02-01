@@ -1,7 +1,3 @@
-import {
-  displayAllPrimeNumbers,
-  forToWhile,
-  repeatLoopWhilePromptTrue
-} from "./functions/loops.js";
+import testArrays from "./articles/arrays.js";
 
-displayAllPrimeNumbers(100);
+testArrays();
